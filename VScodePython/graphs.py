@@ -88,8 +88,6 @@ def plot_tan():
     canvas.get_tk_widget().pack()
 
 def plot_csc():
-    # I Increased Both Figsize And Geometry To Obtain A Better Visualization Of Csc Function.
-    # Same Thing Will Go For Both Sec And Cot Functions.
     win = Tk()
     win.title('Y = Csc(x)')
     win.geometry("500x500")
