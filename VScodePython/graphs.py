@@ -87,6 +87,7 @@ def plot_tan():
     toolbar.update()
     canvas.get_tk_widget().pack()
 
+# Unable to Use SymPy and mpmath   
 def plot_csc():
     win = Tk()
     win.title('Y = Csc(x)')
